@@ -1,0 +1,54 @@
+#wrapper {
+	margin: auto;
+	width: 700px;
+	height: 700px;
+}
+
+#header {
+    margin: auto;
+    width: 700;
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    font-size: 40px;
+    text-align: center;
+}
+
+#video-container {
+	position: relative;
+	width: 544px;
+	height: 360px;
+	margin: 0 auto;
+}
+
+#video-controls {
+	position: absolute;
+	width: 544px;
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	transition: opacity .3s;
+	background: black;
+}
+
+#video-container:hover #video-controls {
+	opacity: .7;
+}
+
+#play-pause-button{
+	padding: 5px;
+}
+
+#mute-button{
+	padding: 5px;
+}
+
+#seek-bar {
+	width: 462px;
+	padding: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
